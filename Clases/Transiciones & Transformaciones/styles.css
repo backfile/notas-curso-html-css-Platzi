@@ -1,0 +1,39 @@
+
+
+.container{
+    border: 1px solid black;
+    width: 100px;
+}
+
+.elemento{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+
+
+    /* transition-property: background-color, transform, opacity;
+    transition-duration:1s;
+    transition-timing-function: linear;
+    transition-delay: 0s; */
+    
+    transition:background-color, transform, .3s linear 1s;
+}
+
+.container:hover .elemento{
+    /* transform: translateY(100px) */
+
+    /* transform: rotate(2turn);
+    0-360  deg
+    0-400 grad
+    0-6 rad
+    0-1 turn */
+
+    /* transform: scale(1.5, 0.7);
+    transform-origin: left top; */
+
+    /* transform: skewY(20deg); */
+
+    background-color: blueviolet;
+    transform: translate(400px, 400px) scale(2, 2);
+    opacity: .2;
+}

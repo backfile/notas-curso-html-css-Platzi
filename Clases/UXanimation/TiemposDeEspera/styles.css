@@ -1,0 +1,25 @@
+
+.nav{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav li ul{
+    visibility: hidden;
+    position: absolute;
+    transition: 1s;
+    transition-delay: 400ms;
+}
+
+.nav li:hover > ul{
+    visibility: visible;
+    transition: 400ms;
+}
+

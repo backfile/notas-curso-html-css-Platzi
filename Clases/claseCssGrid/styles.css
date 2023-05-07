@@ -1,0 +1,40 @@
+.contenedor{
+    border-radius: 5px;
+    background-color: pink;
+    padding: 5px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "header header header"
+    "main . sidebar"
+    "footer footer footer";
+    gap: 20px;
+    height:600px;
+}
+
+
+
+.item{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: aqua;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+.item-1{
+    grid-area: header;
+}
+
+.item-2{
+    grid-area: main;
+}
+
+.item-3{
+    grid-area: sidebar;
+}
+
+.item-4{
+    grid-area: footer;
+}

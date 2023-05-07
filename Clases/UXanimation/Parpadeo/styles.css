@@ -1,0 +1,15 @@
+.container{
+    height: 100px;
+    width: 100px;
+}
+
+.item{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.container:hover .item{
+    transform: translateX(400px);
+}

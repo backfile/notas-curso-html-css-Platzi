@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+.titulo-conteiner {
+  background-color: burlywood;
+  border: solid black 0.2rem;
+  width: 8rem;
+  margin: auto;
+  position: relative;
+  top: 2rem;
+}
+
+.titulo {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.box {
+  width: 40rem;
+  height: 40rem;
+  border: solid black;
+  margin: auto;
+  background-color: antiquewhite;
+  border-radius: 2rem;
+}
+
+.box p {
+  padding-top: 8rem;
+  text-align: center;
+  font-size: 10rem;
+}
+
+.img-container img {
+  width: 2rem;
+  border: solid black 0.1rem;
+  position: relative;
+  left: 1rem;
+  top: 17rem;
+  border-radius: 0.4rem;
+}
